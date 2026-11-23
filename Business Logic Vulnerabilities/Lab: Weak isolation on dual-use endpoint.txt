@@ -2,4 +2,6 @@ Some features like changing email or password sometimes require the current pass
 In that situation, 2 things can be done, which are:
 
 1. Try to send the request with wrong parameter values because if the values are not verified on the server, then we are good to go.
-2. Remove the parameters completely that are required for that action. For example, if changing password require current password, remove the cureent password parameter
+2. Remove the parameters completely that are required for that action. For example, if changing password require current password, remove the cureent password parameter.
+
+This way if the current password is not required for password change and we know the username of our victim (attacker's second account), we can change the password of the victim as well. Provided, there is a way to specify our victim.
