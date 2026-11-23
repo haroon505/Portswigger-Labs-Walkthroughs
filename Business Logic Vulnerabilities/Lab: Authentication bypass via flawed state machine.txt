@@ -1,1 +1,5 @@
+In real web apps, try these 3 things:
 
+1. Remove the role parameter
+2. Change the value of role parameter to high privileged user like admin/administrator
+3. Drop the request that decides your role
