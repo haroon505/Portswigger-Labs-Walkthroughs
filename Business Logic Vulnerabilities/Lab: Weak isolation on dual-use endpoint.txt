@@ -1,1 +1,5 @@
+Some features like changing email or password sometimes require the current password or other parameters.
+In that situation, 2 things can be done, which are:
 
+1. Try to send the request with wrong parameter values because if the values are not verified on the server, then we are good to go.
+2. Remove the parameters completely that are required for that action. For example, if changing password require current password, remove the cureent password parameter
